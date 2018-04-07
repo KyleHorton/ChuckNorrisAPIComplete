@@ -1,0 +1,32 @@
+<resources>
+    <string name="helpScreenTXT">Help Screen</string>
+    <string name="app_name">ChuckNorris</string>
+    <string name="loading">Your joke is loading....</string>
+    <string name="chuckNorris">Chuck Norris Jokes</string>
+    <string name="generateJoke">Generate Joke</string>
+    <string name="home">Home</string>
+    <string name="search">Search Joke</string>
+    <string name="settings">Settings</string>
+    <string name="favorites">Favorites</string>
+    <string name="add_favorites">Add to Favorites</string>
+    <string name="share">Share</string>
+    <string name="darkTheme">Dark Theme</string>
+    <string name="defaultTheme">Default Theme</string>
+    <string name="dayTheme">Day Theme</string>
+    <string name="bubblegumTXT">Bubblegum Text</string>
+    <string name="matchmakerTXT">Matchmaker Text</string>
+    <string name="defaultTXT">Default Text</string>
+    <string name="helpDesc">This app is very simple to use. To randomly generate a Chuck Norris joke, press Generate Joke
+        on the home screen. To search for a joke with a specific topic, select the Search Joke option on the toolbar.  To add any joke to your
+        list of favorites, simply click on the plus sign on the toolbar.  To display all of your favorites click on the Favorites toolbar option.
+        From this screen, you can delete a specific joke by clicking on it and then clicking Delete Joke, or delete all the jokes in your favorites
+        by clicking Delete All. If you want to change the theme of the app or font style, simply click on the Settings toolbar option.  Lastly, if
+        you want to share a joke with a friend, you can click the Share toolbar option while the joke is displayed. You can also share jokes from
+        your favorites. Enjoy!
+    </string>
+
+    <string name="credit">Credits</string>
+    <string name="creditDesc">This app was design and implemented by Kyle Horton for a Quinnipiac University Software Engineering course. The
+    REST-API was created by ChuckNorris.io</string>
+
+</resources>

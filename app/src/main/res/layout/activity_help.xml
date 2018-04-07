@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="kylehorton.ser210.quinnipiac.edu.chucknorris.HelpActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main" />
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/header"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/helpScreenTXT"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:id="@+id/desc"
+        android:textSize="17dp"
+        android:text="@string/helpDesc"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+</LinearLayout>

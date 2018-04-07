@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/eagle"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_main" />
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="140dp"
+            android:layout_gravity="right"
+            android:background="@mipmap/chuckwink"
+            android:paddingLeft="10dp" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/joke"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:text="@string/loading"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <GridLayout
+            android:layout_width="360dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:rowCount="1">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="0"
+                android:layout_gravity="left"
+                android:background="@mipmap/approved" />
+
+            <Button
+                android:id="@+id/newjoke"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:background="#ffffff"
+                android:onClick="onHome"
+                android:text="@string/home"
+
+                />
+
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>
+
