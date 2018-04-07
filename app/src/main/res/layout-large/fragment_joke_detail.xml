@@ -57,6 +57,7 @@
                 android:layout_height="80dp"
                 android:layout_column="1"
                 android:layout_gravity="center"
+                android:textColor="#000000"
                 android:background="#ffffff"
                 android:onClick="onHome"
                 android:text="@string/home"

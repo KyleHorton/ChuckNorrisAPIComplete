@@ -17,7 +17,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="70dp" />
+            android:layout_height="30dp" />
 
         <TextView
             android:id="@+id/mainTitle"
@@ -42,7 +42,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="40dp" />
+            android:layout_height="20dp" />
 
         <Button
             android:id="@+id/generate"
@@ -53,6 +53,27 @@
             android:onClick="onGenerateJoke"
             android:text="@string/generateJoke"
             android:textColor="#ffffff" />
-
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/help"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#000753"
+            android:text="@string/helpScreenTXT"
+            android:textColor="#ffffff" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/credits"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#000753"
+            android:text="@string/credit"
+            android:textColor="#ffffff" />
     </LinearLayout>
 </ScrollView>

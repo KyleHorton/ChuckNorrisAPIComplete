@@ -9,18 +9,19 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar_main" />
 
-    <ListView
+    <fragment
+        android:id="@+id/list_frag"
         android:layout_width="match_parent"
         android:layout_height="450dp"
-        android:id="@+id/listView">
+        tools:layout="@layout/fragment_list"
+        android:name="kylehorton.ser210.quinnipiac.edu.chucknorris.FavoritesListFragment"/>
 
-    </ListView>
     <Button
-        android:id="@+id/delete"
+        android:id="@+id/deleteAll"
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:layout_gravity="center"
-        android:text="Delete Joke"
+        android:text="Delete All"
         />
 
 

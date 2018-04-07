@@ -3,6 +3,4 @@
     android:layout_height="?attr/actionBarSize"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-    app:titleTextColor="#000000"
-    app:subtitleTextColor="#000000"
     xmlns:app="http://schemas.android.com/apk/res-auto" />
